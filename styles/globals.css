@@ -1,0 +1,16 @@
+:root {
+  --max-width: 1100px;
+  --primary: 255, 255, 255;
+  --accent: hsl(347 93% 42% / 1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
