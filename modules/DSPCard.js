@@ -2,7 +2,8 @@ import React from "react";
 import styles from "@/styles/DSPCard.module.css";
 import imageByIndex from "@/data/dsps/images";
 
-const DSPCard = ({ dsp, index }) => {
+const DSPCard = ({ dsp, index, onPreorder }) => {
+  console.log(onPreorder);
   return (
     <a href={dsp.href} className={styles.link}>
       <div className={styles.card}>
@@ -11,7 +12,9 @@ const DSPCard = ({ dsp, index }) => {
           alt={dsp.name + " logo"}
           className={styles.dspLogo}
         />
-        <button className={styles.button}>Play</button>
+        <button className={styles.button}>
+          {onPreorder ? "Pre-order" : "Play"}
+        </button>
       </div>
     </a>
   );

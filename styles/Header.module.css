@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header p {
+  margin: 0 4px;
+  font-weight: 700;
+}
+
+.subHeader {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  color: darkgray;
+  font-weight: 600;
+}
+
+.subHeader p {
+  margin: 6px 0;
+}

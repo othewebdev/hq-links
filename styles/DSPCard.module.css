@@ -2,23 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding: 24px 16px;
+  transition: 0.2s ease all;
 }
 
 .link {
   text-decoration: none;
 }
 
-.button:hover {
-  border: 1px var(--accent) solid;
-  background-color: var(--accent);
-  color: white;
-}
-
 .button {
   border: 1px var(--accent) solid;
   transition: 0.2s ease all;
-  padding: 10px 25px;
+  padding: 10px 15px;
   outline: none;
   background-color: transparent;
   color: var(--accent);
@@ -26,5 +21,14 @@
 }
 
 .dspLogo {
-  max-width: 89px;
+  max-width: 108px;
+}
+
+.card:hover {
+  background-color: rgba(238, 238, 238, 0.548);
+}
+.card:hover .button {
+  border: 1px var(--accent) solid;
+  background-color: var(--accent);
+  color: white;
 }
