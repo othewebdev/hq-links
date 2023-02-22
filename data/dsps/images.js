@@ -8,6 +8,31 @@ const image7 = "https://services.linkfire.com/logo_tidal_onlight.svg";
 
 export const images = [image1, image2, image3, image4, image5, image6, image7];
 
-const imageByIndex = (index) => images[index % images.length];
+const imageByName = (name) => {
+  let image;
+  switch (name) {
+    case "Apple Music":
+      image = image1;
+      return image;
+    case "Spotify":
+      image = image2;
+      return image;
+    case "SoundCloud":
+      image = image3;
+      return image;
+    case "YouTube":
+      image = image4;
+      return image;
+    case "Pandora":
+      image = image5;
+      return image;
+    case "iHeartRadio":
+      image = image6;
+      return image;
+    case "Tidal":
+      image = image7;
+      return image;
+  }
+};
 
-export default imageByIndex;
+export default imageByName;

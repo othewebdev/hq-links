@@ -1,14 +1,13 @@
 import React from "react";
 import styles from "@/styles/DSPCard.module.css";
-import imageByIndex from "@/data/dsps/images";
+import imageByName from "@/data/dsps/images";
 
 const DSPCard = ({ dsp, index, onPreorder }) => {
-  console.log(onPreorder);
   return (
     <a href={dsp.href} className={styles.link}>
       <div className={styles.card}>
         <img
-          src={imageByIndex(index)}
+          src={imageByName(dsp.name)}
           alt={dsp.name + " logo"}
           className={styles.dspLogo}
         />
