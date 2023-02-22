@@ -1,4 +1,4 @@
-export let albumInfo = {
+export const albumInfo = {
   name: "Odee-loh",
   release: {
     name: "Can't Let You Down",
