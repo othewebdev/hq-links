@@ -47,23 +47,3 @@ select {
   max-width: 450px;
   margin: 8px 0;
 }
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgb(247, 247, 247);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--accent);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--accent);
-}
