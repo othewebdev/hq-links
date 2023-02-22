@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "@/styles/Header.module.css";
 
 const Header = ({ artist }) => {
   const [isOpen, setIsOpen] = useState(false);

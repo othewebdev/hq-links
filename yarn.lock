@@ -1389,6 +1389,7 @@ __metadata:
     eslint-config-next: 13.1.6
     next: 13.1.6
     react: 18.2.0
+    react-audio-player: ^0.17.0
     react-dom: 18.2.0
   languageName: unknown
   linkType: soft
@@ -2145,7 +2146,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -2167,6 +2168,18 @@ __metadata:
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
   checksum: b676f8c040cdc5b12723ad2f91414d267605b26419d5c821ff03befa817ddd10e238d22b25d604920340fd73efd8ba795465a0377c4adf45a4a41e4234e42dc4
+  languageName: node
+  linkType: hard
+
+"react-audio-player@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "react-audio-player@npm:0.17.0"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ">=16"
+    react-dom: ">=16"
+  checksum: 03042c6ed663dda5d18cae4f399daa53078deed8f34b1b9f2f634bbc168ee7f4e73686f494c88f3091c534fa90af922bc85d80f081af02e0335782557a4a8715
   languageName: node
   linkType: hard
 

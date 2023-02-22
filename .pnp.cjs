@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:13.1.6"],\
             ["next", "virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:13.1.6"],\
             ["react", "npm:18.2.0"],\
+            ["react-audio-player", "virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:0.17.0"],\
             ["react-dom", "virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:18.2.0"]\
           ],\
           "linkType": "SOFT"\
@@ -1769,6 +1770,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:13.1.6"],\
             ["next", "virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:13.1.6"],\
             ["react", "npm:18.2.0"],\
+            ["react-audio-player", "virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:0.17.0"],\
             ["react-dom", "virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:18.2.0"]\
           ],\
           "linkType": "SOFT"\
@@ -2654,6 +2656,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["react", "npm:18.2.0"],\
             ["loose-envify", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-audio-player", [\
+        ["npm:0.17.0", {\
+          "packageLocation": "./.yarn/cache/react-audio-player-npm-0.17.0-e098631967-03042c6ed6.zip/node_modules/react-audio-player/",\
+          "packageDependencies": [\
+            ["react-audio-player", "npm:0.17.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:0.17.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-audio-player-virtual-17d97c9c27/0/cache/react-audio-player-npm-0.17.0-e098631967-03042c6ed6.zip/node_modules/react-audio-player/",\
+          "packageDependencies": [\
+            ["react-audio-player", "virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:0.17.0"],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:ca16606b1d575f5a1c9a611e9e06da3863cabfbc2d617b5a108e5a1aaf6101f48df3f9052f42f48aff3b5904356cf9b751ef006c6cdd7d8f12221ce6bf03e863#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

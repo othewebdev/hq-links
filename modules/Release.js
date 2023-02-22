@@ -18,8 +18,8 @@ const Release = ({ artist }) => {
         <CoverImage artist={artist} />
         <div className={styles.releaseContent}>
           <Header artist={artist} />
-          {artist.dsps.map((dsp) => (
-            <DSPCard dsp={dsp} />
+          {artist.dsps.map((dsp, i) => (
+            <DSPCard dsp={dsp} index={i} />
           ))}
         </div>
       </div>

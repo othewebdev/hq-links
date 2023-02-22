@@ -24,3 +24,7 @@
   color: var(--accent);
   cursor: pointer;
 }
+
+.dspLogo {
+  max-width: 89px;
+}
