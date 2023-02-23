@@ -49,4 +49,3 @@ const AddReleaseForm = () => {
 };
 
 export default AddReleaseForm;
-<input type="text" />;
