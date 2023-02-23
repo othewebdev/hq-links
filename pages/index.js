@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={inter.className}>
-        <p>You shouldn't be here</p>
+        <p>You shouldnt be here</p>
       </main>
     </>
   );
