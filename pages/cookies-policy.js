@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CookiesPolicy = () => {
@@ -11,12 +12,9 @@ const CookiesPolicy = () => {
         use, or the information We collect using Cookies and how that
         information is used. This Cookies Policy has been created with the help
         of the{" "}
-        <a
-          href="https://www.privacypolicies.com/cookies-policy-generator/"
-          target="_blank"
-        >
+        <Link href="https://www.privacypolicies.com/cookies-policy-generator/">
           Cookies Policy Generator
-        </a>
+        </Link>
         .
       </p>
       <p>
@@ -53,13 +51,9 @@ const CookiesPolicy = () => {
         </li>
         <li>
           <strong>Website</strong> refers to HQLinks, accessible from{" "}
-          <a
-            href="https://www.hqlinks.to"
-            rel="external nofollow noopener"
-            target="_blank"
-          >
+          <Link href="https://www.hqlinks.to" rel="external nofollow noopener">
             https://www.hqlinks.to
-          </a>
+          </Link>
         </li>
         <li>
           <strong>You</strong> means the individual accessing or using the
@@ -122,70 +116,67 @@ const CookiesPolicy = () => {
         in your use of the Website and some features may not function properly.
       </p>
       <p>
-        If You'd like to delete Cookies or instruct your web browser to delete
-        or refuse Cookies, please visit the help pages of your web browser.
+        If Youd like to delete Cookies or instruct your web browser to delete or
+        refuse Cookies, please visit the help pages of your web browser.
       </p>
       <ul>
         <li>
           <p>
             For the Chrome web browser, please visit this page from Google:{" "}
-            <a
+            <Link
               href="https://support.google.com/accounts/answer/32050"
               rel="external nofollow noopener"
-              target="_blank"
             >
               https://support.google.com/accounts/answer/32050
-            </a>
+            </Link>
           </p>
         </li>
         <li>
           <p>
             For the Internet Explorer web browser, please visit this page from
             Microsoft:{" "}
-            <a
+            <Link
               href="http://support.microsoft.com/kb/278835"
               rel="external nofollow noopener"
               target="_blank"
             >
               http://support.microsoft.com/kb/278835
-            </a>
+            </Link>
           </p>
         </li>
         <li>
           <p>
             For the Firefox web browser, please visit this page from Mozilla:{" "}
-            <a
+            <Link
               href="https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored"
               rel="external nofollow noopener"
-              target="_blank"
             >
               https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored
-            </a>
+            </Link>
           </p>
         </li>
         <li>
           <p>
             For the Safari web browser, please visit this page from Apple:{" "}
-            <a
-              href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac"
-              rel="external nofollow noopener"
-              target="_blank"
-            >
+            <Link href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac">
               https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac
-            </a>
+            </Link>
           </p>
         </li>
       </ul>
       <p>
-        For any other web browser, please visit your web browser's official web
+        For any other web browser, please visit your web browsers official web
         pages.
       </p>
       <h2>More Information about Cookies</h2>
       <p>
         You can learn more about cookies:{" "}
-        <a href="https://www.privacypolicies.com/blog/cookies/" target="_blank">
+        <Link
+          href="https://www.privacypolicies.com/blog/cookies/"
+          target="_blank"
+        >
           What Are Cookies?
-        </a>
+        </Link>
         .
       </p>
       <h2>Contact Us</h2>

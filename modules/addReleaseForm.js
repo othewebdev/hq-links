@@ -5,6 +5,7 @@ import ReleaseTypeSelector from "./releaseTypeSelector";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import styles from "@/styles/Portal.module.css";
+import Link from "next/link";
 
 const AddReleaseForm = () => {
   const [startDate, setStartDate] = useState(new Date());
@@ -39,9 +40,9 @@ const AddReleaseForm = () => {
           <label>Add DSP links</label>
           <DSPLinkForm />
         </div>
-        <a href="/preview">
+        <Link href="/preview">
           <button className="button">Add Release</button>
-        </a>
+        </Link>
       </div>
     </div>
   );

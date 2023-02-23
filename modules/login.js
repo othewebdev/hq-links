@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "@/styles/Login.module.css";
+import Link from "next/link";
 
 const Login = () => {
   return (
@@ -16,9 +17,9 @@ const Login = () => {
         <input type="text" />
         <label>Password</label>
         <input type="password" />
-        <a href="/portal">
+        <Link href="/portal">
           <button className="button">Sign In</button>
-        </a>
+        </Link>
       </div>
     </div>
   );

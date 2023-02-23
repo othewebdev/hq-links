@@ -4,6 +4,7 @@ import styles from "@/styles/Release.module.css";
 import CoverImage from "./CoverImage";
 import DSPCard from "./DSPCard";
 import { cookie_disclaimer } from "@/data/disclaimers/cookies";
+import Link from "next/link";
 
 const Release = ({ artist }) => {
   const [isOnPreOrder, setIsOnPreOrder] = useState(false);
@@ -33,13 +34,13 @@ const Release = ({ artist }) => {
         <div className={styles.releaseContent}>
           <Header artist={artist} />
           {artist.dsps.map((dsp, i) => (
-            <DSPCard dsp={dsp} index={i} onPreorder={isOnPreOrder} />
+            <DSPCard key={i} dsp={dsp} index={i} onPreorder={isOnPreOrder} />
           ))}
         </div>
       </div>
-      <a href="/cookies-policy" className={styles.disclaimer}>
+      <Link href="/cookies-policy" className={styles.disclaimer}>
         {cookie_disclaimer}
-      </a>
+      </Link>
     </div>
   );
 };

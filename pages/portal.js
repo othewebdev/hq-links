@@ -1,6 +1,7 @@
 import AddReleaseForm from "@/modules/addReleaseForm";
 import { Inter } from "@next/font/google";
 import Head from "next/head";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,7 @@ export default function Portal() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={inter.className}>
-        <a href="/">logout</a>
+        <Link href="/">logout</Link>
         <AddReleaseForm />
       </main>
     </>

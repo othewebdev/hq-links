@@ -1,17 +1,18 @@
 import React from "react";
 import styles from "@/styles/Preview.module.css";
+import Link from "next/link";
 
 const Preview = () => {
   return (
     <div className={styles.page}>
       <span>
         Your link is ready,{" "}
-        <a href="/cant-let-you-down" target="_blank">
+        <Link href="/cant-let-you-down" target="_blank">
           click here
-        </a>
+        </Link>
       </span>
       <span>
-        Or, <a href="/portal">go back to portal</a>
+        Or, <Link href="/portal">go back to portal</Link>
       </span>
     </div>
   );
